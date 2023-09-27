@@ -1,9 +1,11 @@
 
-@font-face {
+@font-face 
+{
     font-family: "Minercraftory";
     src: url(../fonts/Minercraftory.ttf);
 }
 
-body {
+body 
+{
     font-family: "Minercraftory";
 }
