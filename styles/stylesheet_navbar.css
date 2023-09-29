@@ -11,7 +11,7 @@
   
   /* Styles the links */
   .navbar a {
-    float: left;
+    float: top;
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
