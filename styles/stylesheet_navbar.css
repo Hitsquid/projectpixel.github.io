@@ -21,7 +21,6 @@
   }
   
   /* active color change */
-  /* currently does not work */
   .navbar a.active {
     background-color: #0031d2;
     color: white;
