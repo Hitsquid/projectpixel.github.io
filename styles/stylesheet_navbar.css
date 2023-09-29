@@ -27,10 +27,11 @@
     color: white;
   }
 
-  /* Adds black background color to top navigation */
+  /* Adds black background color to bottom navigation */
 .navbar_below {
   background-color: #333;
   overflow: hidden;
+  float: center;
 }
 
 /* Styles the links */
