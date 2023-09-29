@@ -1,0 +1,58 @@
+/* 
+Do not touch 
+-Gwyn
+
+.image-fader {
+  width: 300px;
+  height: 300px;
+}
+
+.image-fader img {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  animation-name: imagefade;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 8s;
+}
+
+@keyframes imagefade {
+  0% {
+    opacity:1;
+  }
+  17% {
+    opacity:1;
+  }
+  25% {
+    opacity:0;
+  }
+  92% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+.image-fader img:nth-of-type(1) {
+  animation-delay: 6s;
+}
+.image-fader img:nth-of-type(2) {
+  animation-delay: 4s;
+}
+.image-fader img:nth-of-type(3) {
+  animation-delay: 2s;
+}
+.image-fader img:nth-of-type(4) {
+  animation-delay: 0;
+}
+
+<div class="image-fader">
+  <img src="https://dummyimage.com/300x200/f00/fff" />
+  <img src="https://dummyimage.com/300x200/0f0/fff" />
+  <img src="https://dummyimage.com/300x200/00f/fff" />
+  <img src="https://dummyimage.com/300x200/f0f/fff" />
+</div>
+
+*/
