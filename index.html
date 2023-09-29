@@ -47,10 +47,22 @@
             Pixel!
         </h1>
 
-        <div class="image-fader">
-            <img src="./images/favicon.png"  />
-            <img src="./images/chunithm.png" />
-          </div>
+        <div>
+            <img class="image" src=""/>
+          <script>
+               $( document ).ready(function(){
+                    let images = [
+                         "./images/favicon.png",
+                         "./images/chunithm.png",
+                    ];
+                    var i = 0;
+                    window.setInterval(function(){
+                         $('.image'). attr("src", images[i]);
+                         i = (i==images.length-1) ? 0 : i+1;
+                    }, 5000);
+               });
+            </script>
+        </div>
 
         <p>
             Arcade! <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
