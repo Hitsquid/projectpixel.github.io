@@ -11,3 +11,7 @@ body
     margin: 0px; /*  this fixes navbar  */
 }
 
+.content
+{
+    margin: 0px 8px;
+}
