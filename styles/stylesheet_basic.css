@@ -9,6 +9,7 @@ body
 {
     font-family: "Minercraftory";
     margin: 0px; /*  this fixes navbar  */
+    background-image: linear-gradient(grey, violet)  ;
 }
 
 #content
