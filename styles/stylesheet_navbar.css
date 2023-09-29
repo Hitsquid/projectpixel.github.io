@@ -3,6 +3,7 @@
     background-color: #333;
     overflow: hidden;
     position:fixed;
+    transition: opacity .125s linear;
   }
   
   /* Styles the links */
