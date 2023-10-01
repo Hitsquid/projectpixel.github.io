@@ -2,7 +2,9 @@
 .navbar {
     background-color: #333;
     overflow: hidden;
-    position: fixed; /*, -5.5px, 0px, 0px, 0px;  fuck that one line that just doesn't wanna go awyay "ooh immona mess wit you" fuck you. how about that you b-
+    position: fixed;
+    top: 0;
+    width: 100%; /*, -5.5px, 0px, 0px, 0px;  fuck that one line that just doesn't wanna go awyay "ooh immona mess wit you" fuck you. how about that you b-
                    okay. what the fuck? this shit just?? doesn't work anymore??? removing the pixel changes, maybe that fucked with it inno  
                    i am going mentally insane. my fucking firefox bar, I thought the page was fucked. it was just firefox. I just, can't, man 
                    all these lines are different problems btw, because I forgot to re-add the semi-colon. 
