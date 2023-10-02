@@ -3,9 +3,11 @@
     background-color: #333;
     overflow: hidden;
     position: fixed;
+    top: 0;
+    width: 100%;
   }
   
-  /* Styles the links] */
+  /* Styles the links */
   .navbar a {
     float: left;
     color: #f2f2f2;
