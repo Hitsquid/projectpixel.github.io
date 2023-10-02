@@ -8,7 +8,7 @@
 body 
 {
     font-family: "Minercraftory";
-    margin: 0px; /*  this fixes navbar  */
+    padding-top: 60px;
     background: linear-gradient(#2C2E31, #942C8F);
     color: lawngreen;
 }
