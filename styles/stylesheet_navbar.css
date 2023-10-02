@@ -5,6 +5,7 @@
     position: fixed;
     top: 0;
     width: 100%;
+    margin-bottom: 50px;
   }
   
   /* Styles the links */
@@ -28,3 +29,5 @@
     background-color: #0d00ff;
     color: white;
   }
+
+  .main
