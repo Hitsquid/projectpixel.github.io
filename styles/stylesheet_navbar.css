@@ -4,7 +4,10 @@
     overflow: hidden;
     position: fixed;
     top: 0;
-    width: 100%; /*, -5.5px, 0px, 0px, 0px;  fuck that one line that just doesn't wanna go awyay "ooh immona mess wit you" fuck you. how about that you b-
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0; /*, -5.5px, 0px, 0px, 0px;  fuck that one line that just doesn't wanna go awyay "ooh immona mess wit you" fuck you. how about that you b-
                    okay. what the fuck? this shit just?? doesn't work anymore??? removing the pixel changes, maybe that fucked with it inno  
                    i am going mentally insane. my fucking firefox bar, I thought the page was fucked. it was just firefox. I just, can't, man 
                    all these lines are different problems btw, because I forgot to re-add the semi-colon. 
@@ -14,7 +17,7 @@
   
   /* Styles the links */
   .navbar a {
-    float: left;
+    float: top;
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
