@@ -9,7 +9,7 @@ body
 {
     font-family: "Minercraftory";
     padding-top: 60px;
-    background: linear-gradient(#2C2E31, #942C8F);
+    background: linear-gradient(#2C2E31, #942C8F) no-repeat;
     color: lawngreen;
 }
 
