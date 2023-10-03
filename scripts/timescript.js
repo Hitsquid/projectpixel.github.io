@@ -8,26 +8,26 @@ document.getElementById("time").innerHTML = "Today is day " + day + " and the ti
 
 
 if (day == 1 || day == 2) {
-    document.getElementById("open").src = "../images/closed.png";
+    document.getElementById("open").src = "images/closed.png";
     document.getElementById("open").alt = "closed sign";
 }
 
 else if (hours < 14) {
-    document.getElementById("open").src = "../images/closed.png";
+    document.getElementById("open").src = "images/closed.png";
     document.getElementById("open").alt = "closed sign";
 
 }
 else if (day !=0 && hours >= 23) {
-    document.getElementById("open").src = "../images/closed.png";
+    document.getElementById("open").src = "images/closed.png";
     document.getElementById("open").alt = "closed sign";
 } 
 
 else if (day == 0 && hours >=22) {
-    document.getElementById("open").src = "../images/closed.png";
+    document.getElementById("open").src = "images/closed.png";
     document.getElementById("open").alt = "closed sign";
 }
 
 else {
-    document.getElementById("open").src = "../images/open.jpg";
+    document.getElementById("open").src = "images/closed.png";
     document.getElementById("open").alt = "open sign";
 };
