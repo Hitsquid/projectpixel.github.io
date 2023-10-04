@@ -1,11 +1,13 @@
 // Dynamic Pricing System
-
+// Made by Gwyn
+// 04/10/2023
 
 const weekday = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
 
 const d = new Date();
 let day = weekday[d.getDay()];
-document.getElementById("Today").innerHTML = day;
+var dayNow = string.toUpper(day);
+document.getElementById("Today").innerHTML = dayNow;
 
 var Closed = "Closed.";
 var State2 = "Weekend prices.";
@@ -63,11 +65,13 @@ else if(day == "Monday"){
     document.getElementById("State").innerHTML = Closed;
     document.getElementById("PriceAd").innerHTML = Closed;
     document.getElementById("PriceCh").innerHTML = Closed;
+    alert("The arcade is closed today.");
 }
 else if(day == "Tuesday"){
     document.getElementById("State").innerHTML = Closed;
     document.getElementById("PriceAd").innerHTML = Closed;
     document.getElementById("PriceCh").innerHTML = Closed;
+    alert("The arcade is closed today.");
 }
 else if(day == "Wednesday"){
     document.getElementById("State").innerHTML = State3;
