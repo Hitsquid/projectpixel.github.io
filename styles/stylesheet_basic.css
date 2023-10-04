@@ -9,7 +9,9 @@ body
 {
     font-family: "Minercraftory";
     padding-top: 60px;
-    background: linear-gradient(#000000, #640C9F);
+    background-image:url(../images/amogus_space.jpg);
+    background-repeat: repeat;
+    background-size: 420px;
     color: lawngreen;
 }
 
