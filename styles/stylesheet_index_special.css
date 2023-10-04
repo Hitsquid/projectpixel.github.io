@@ -10,6 +10,8 @@ body
     font-family: "Minercraftory";
     padding-top: 60px;
     background-image:url(../images/vaporwave_jpg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     color: lawngreen;
 }
 
