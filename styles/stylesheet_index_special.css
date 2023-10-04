@@ -1,0 +1,20 @@
+
+@font-face 
+{
+    font-family: "Minercraftory";
+    src: url(../fonts/Minercraftory.ttf);
+}
+
+body 
+{
+    font-family: "Minercraftory";
+    padding-top: 60px;
+    background-image:url(../images/vaporwave_jpg.jpg);
+    color: lawngreen;
+}
+
+
+#gamestitle {
+    text-align: center;
+    
+}
