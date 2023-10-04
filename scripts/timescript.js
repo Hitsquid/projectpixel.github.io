@@ -28,6 +28,6 @@ else if (day == 0 && hours >=22) {
 }
 
 else {
-    document.getElementById("open").src = "images/closed.png";
+    document.getElementById("open").src = "images/open.jpg";
     document.getElementById("open").alt = "open sign";
 };
