@@ -8,26 +8,30 @@ document.getElementById("time").innerHTML = "Today is day " + day + " and the ti
 
 //if else statement to determine if the arcade is open
 if (day == 1 || day == 2) {
-    document.getElementById("open").src = "images/closed.png";
-    document.getElementById("open").alt = "closed sign";
+    document.getElementById("sign").src = "images/closed.png";
+    document.getElementById("sign").alt = "closed sign";
+    document.getElementById("signcaption").innerHTML = "We zijn gesloten.";
 }
 
 else if (hours < 14) {
-    document.getElementById("open").src = "images/closed.png";
-    document.getElementById("open").alt = "closed sign";
-
+    document.getElementById("sign").src = "images/closed.png";
+    document.getElementById("sign").alt = "closed sign";
+    document.getElementById("signcaption").innerHTML = "We zijn gesloten.";
 }
 else if (day !=0 && hours >= 23) {
-    document.getElementById("open").src = "images/closed.png";
-    document.getElementById("open").alt = "closed sign";
+    document.getElementById("sign").src = "images/closed.png";
+    document.getElementById("sign").alt = "closed sign";
+    document.getElementById("signcaption").innerHTML = "We zijn gesloten.";
 } 
 
 else if (day == 0 && hours >=22) {
-    document.getElementById("open").src = "images/closed.png";
-    document.getElementById("open").alt = "closed sign";
+    document.getElementById("sign").src = "images/closed.png";
+    document.getElementById("sign").alt = "closed sign";
+    document.getElementById("signcaption").innerHTML = "We zijn gesloten.";
 }
 
 else {
-    document.getElementById("open").src = "images/open.jpg";
-    document.getElementById("open").alt = "open sign";
+    document.getElementById("sign").src = "images/open.jpg";
+    document.getElementById("sign").alt = "open sign";
+    document.getElementById("signcaption").innerHTML = "We zijn open.";
 };
