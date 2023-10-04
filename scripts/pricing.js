@@ -6,7 +6,7 @@ const weekday = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Sa
 
 const d = new Date();
 let day = weekday[d.getDay()];
-var dayNow = string.toUpper(day);
+var dayNow = day.toUpperCase();
 document.getElementById("Today").innerHTML = dayNow;
 
 var Closed = "Closed.";
