@@ -6,7 +6,7 @@ console.log(`Today is day ${day} and the time is ${hours}:${minutes}.`);
 
 document.getElementById("time").innerHTML = "Today is day " + day + " and the time is " + hours + ":" + minutes + ".";
 
-
+//if else statement to determine
 if (day == 1 || day == 2) {
     document.getElementById("open").src = "images/closed.png";
     document.getElementById("open").alt = "closed sign";
