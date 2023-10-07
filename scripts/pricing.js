@@ -56,39 +56,39 @@ weekendC += "</ul>";
 // These work quite simplisticly; an array for values, a [let] for the amount of values in an array, a [for loop] to count until it's empty, and a return in a list format.
 
 
-if(day == "Sunday"){
+if(day == "Sunday") {
     document.getElementById("State").innerHTML = State2;
     document.getElementById("PriceAd").innerHTML = weekendA;
     document.getElementById("PriceCh").innerHTML = weekendC;
 }
-else if(day == "Monday"){
+else if(day == "Monday") {
     document.getElementById("State").innerHTML = Closed;
     document.getElementById("PriceAd").innerHTML = Closed;
     document.getElementById("PriceCh").innerHTML = Closed;
     alert("The arcade is closed today.");
 }
-else if(day == "Tuesday"){
+else if(day == "Tuesday") {
     document.getElementById("State").innerHTML = Closed;
     document.getElementById("PriceAd").innerHTML = Closed;
     document.getElementById("PriceCh").innerHTML = Closed;
     alert("The arcade is closed today.");
 }
-else if(day == "Wednesday"){
+else if(day == "Wednesday") {
     document.getElementById("State").innerHTML = State3;
     document.getElementById("PriceAd").innerHTML = midweekA;
     document.getElementById("PriceCh").innerHTML = midweekC;
 }
-else if(day == "Thursday"){
+else if(day == "Thursday") {
     document.getElementById("State").innerHTML = State3;
     document.getElementById("PriceAd").innerHTML = midweekA;
     document.getElementById("PriceCh").innerHTML = midweekC;
 }
-else if(day == "Friday"){
+else if(day == "Friday") {
     document.getElementById("State").innerHTML = State3;
     document.getElementById("PriceAd").innerHTML = midweekA;
     document.getElementById("PriceCh").innerHTML = midweekC;
 }
-else if(day == "Saturday"){
+else if(day == "Saturday") {
     document.getElementById("State").innerHTML = State2;
     document.getElementById("PriceAd").innerHTML = weekendA;
     document.getElementById("PriceCh").innerHTML = weekendC;
