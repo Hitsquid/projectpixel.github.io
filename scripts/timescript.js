@@ -31,7 +31,7 @@ else if (day == 0 && hours >=22) {
 }
 
 else {
-    document.getElementById("sign").src = "images/open.jpg";
+    document.getElementById("sign").src = "images/open.png";
     document.getElementById("sign").alt = "open sign";
     document.getElementById("signcaption").innerHTML = "We zijn open.";
 };
