@@ -5,7 +5,7 @@
     position: fixed;
     top: 0;
     width: 100%;
-    /* these fix the navbar overlapping with the rest */
+/* these fix the navbar overlapping with the rest */
     height: 50px;
     background-color: black;
     z-index: 1;
