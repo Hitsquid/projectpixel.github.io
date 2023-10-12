@@ -22,13 +22,13 @@
   }
   
   /* Hover links colors */
-  .navbar li:hover {
+  .navbar a:hover {
     background-color: #ddd;
     color: black;
   }
   
   /* active color change */
-  .navbar li.active {
+  .navbar a.active {
     background-color: #0d00ff;
     color: white;
   }
