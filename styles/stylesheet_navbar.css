@@ -12,7 +12,7 @@
   }
   
   /* Styles the links */
-  .navbar a {
+  .navbar li {
     float: left;
     color: #f2f2f2;
     text-align: center;
@@ -22,13 +22,13 @@
   }
   
   /* Hover links colors */
-  .navbar a:hover {
+  .navbar li:hover {
     background-color: #ddd;
     color: black;
   }
   
   /* active color change */
-  .navbar a.active {
+  .navbar li.active {
     background-color: #0d00ff;
     color: white;
   }
