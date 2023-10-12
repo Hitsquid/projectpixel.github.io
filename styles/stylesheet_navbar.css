@@ -12,7 +12,7 @@
   }
   
   /* Styles the links */
-  li {
+  nav li {
     float: left;
     color: #f2f2f2;
     text-align: center;
@@ -21,7 +21,7 @@
     font-size: 17px;
   }
 
-  li a {
+  nav li a {
     display: block;
     color: white;
     text-align: center;
@@ -30,18 +30,18 @@
   }
   
   /* Hover links colors */
-  li a:hover {
+  nav li a:hover {
     background-color: #ddd;
     color: black;
   }
   
   /* active color change */
-  li a.active {
+  nav li a.active {
     background-color: #0d00ff;
     color: white;
   }
   
-  ul {
+  nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
