@@ -3,3 +3,79 @@ Auteur: Samii
 Datum: 6/10/23
 Content: stylesheet voor Times.html
 */
+
+*
+{
+  box-sizing: border-box; /*causes padding to be included in width and height specifications, so 300px width and 50px padding will create an element where width + padding is 300px instead of 350px*/
+  padding: 0px;
+  margin: 0px;
+}
+
+.grid-container 
+{
+    display: grid; /*makes sure the grid actually displays as a grid*/
+    gap: 50px; /*specifies the space between the different rows and collumns in the grid*/
+    height: 100vh; /*sets the height of the grid to 100% of the viewport height*/
+    width: 100vw; /*sets the width of the grid to 100% of the viewport width*/
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    align-content: center;
+    background-color: aqua;
+}
+
+.signItem
+{
+  grid-column: 1/1; /*places the grid item in the first column*/
+  grid-row: 1/1; /*places the grid item in the first row of the grid, in this case the item is places in the first column of the first row*/
+  border: 1px hidden; /*creates an invisible border around the item */
+}
+
+.timetableItem
+{
+  grid-column: 2/2;
+  grid-row: 1/1;
+  border: 1px hidden;
+  text-align: center;
+  
+}
+
+.adresItem
+{
+   grid-column: 1/1;
+   grid-row: 2/2;
+   border: 1px hidden;
+   text-align: center;
+}
+
+.mapItem
+{
+    grid-column: 2/2;
+    grid-row: 2/2;
+    border: 1px hidden;
+    text-align:center;
+}
+
+#timetable
+{
+    list-style-type: none; /*removes the list item's marker*/
+}
+
+/* centering the image withing the grid item*/
+figure > #sign 
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  height: auto;
+}
+/*making sure the figcaption is aligned witht the image*/
+#signcaption
+{
+  text-align: center;
+}
+
+li
+{
+  list-style-position: outside;
+}

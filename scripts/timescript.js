@@ -4,7 +4,6 @@ const hours = now.getHours();
 const minutes = now.getMinutes();
 console.log(`Today is day ${day} and the time is ${hours}:${minutes}.`);
 
-document.getElementById("time").innerHTML = "Today is day " + day + " and the time is " + hours + ":" + minutes + ".";
 
 //if else statement to determine if the arcade is open
 if (day == 1 || day == 2) {
