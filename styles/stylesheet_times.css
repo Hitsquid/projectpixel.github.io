@@ -11,7 +11,6 @@ body
 
 body * /* selects all elements inside the body*/
 {
-  box-sizing: border-box;
   padding: 0px;
   margin: 0px;
 }
