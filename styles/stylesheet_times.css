@@ -4,9 +4,14 @@ Datum: 6/10/23
 Content: stylesheet voor Times.html
 */
 
-*
+body
 {
   box-sizing: border-box; /*causes padding to be included in width and height specifications, so 300px width and 50px padding will create an element where width + padding is 300px instead of 350px*/
+}
+
+body * /* selects all elements inside the body*/
+{
+  box-sizing: border-box;
   padding: 0px;
   margin: 0px;
 }
