@@ -75,11 +75,7 @@ figure > #sign
   text-align: center;
 }
 
-li
-{
-  list-style-position: outside;
-}
-
+/*adding padding to the top of the list so it looks better*/
 .adresItem > ul
 {
   padding-top: 50px;
