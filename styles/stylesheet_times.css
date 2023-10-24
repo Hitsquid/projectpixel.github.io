@@ -15,11 +15,12 @@ Content: stylesheet voor Times.html
 {
     display: grid; /*makes sure the grid actually displays as a grid*/
     gap: 50px; /*specifies the space between the different rows and collumns in the grid*/
-    height: 100vh; /*sets the height of the grid to 100% of the viewport height*/
+    height: 90vh; /*sets the height of the grid to 100% of the viewport height*/
     width: 100vw; /*sets the width of the grid to 100% of the viewport width*/
     grid-template-columns: auto auto;
     grid-template-rows: auto auto;
     align-content: center;
+    position: fixed;
 }
 
 .signItem
