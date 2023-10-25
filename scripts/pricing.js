@@ -25,7 +25,7 @@ var State2 = "Weekend prices.";
 var State3 = "Midweek prices.";
 
 // Price for adults in the midweek
-const Price3A = ["1 Hour - €6,00", "2 Hour - 8,50", "Full day - 15,00"];
+const Price3A = ["1 Hour - 6,00 EUR", "2 Hour - 8,50 EUR", "Full day - 15,00 EUR"];
 let lLen = Price3A.length;
 
 let midweekA = "<ul>";
@@ -35,7 +35,7 @@ for (let i = 0; i < lLen; i++) {
 midweekA += "</ul>";
 
 // Price for children in the midweek
-const Price3C = ["1 Hour - 5,00", "2 Hour - 7,50", "Full day - 15,00"];
+const Price3C = ["1 Hour - 5,00 EUR", "2 Hour - 7,50 EUR", "Full day - 15,00 EUR"];
 let aLen = Price3C.length;
 
 let midweekC = "<ul>";
@@ -45,7 +45,7 @@ for (let i = 0; i < aLen; i++) {
 midweekC += "</ul>";
 
 // Price for adults in the weekend
-const Price2A = ["1 Hour - 7,50", "2 Hour - 10,00", "Full day - 17,50"];
+const Price2A = ["1 Hour - 7,50 EUR", "2 Hour - 10,00 EUR", "Full day - 17,50 EUR"];
 let pLen = Price2A.length;
 
 let weekendA = "<ul>";
@@ -55,7 +55,7 @@ for (let i = 0; i < pLen; i++) {
 weekendA += "</ul>";
 
 // Price for children in the weekend
-const Price2C = ["1 Hour - 6,50", "2 Hour - 9,00", "Full day - 17,50"];
+const Price2C = ["1 Hour - 6,50 EUR", "2 Hour - 9,00 EUR", "Full day - 17,50 EUR"];
 let dLen = Price2C.length;
 
 let weekendC = "<ul>";
