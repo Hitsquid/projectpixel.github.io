@@ -25,7 +25,7 @@ var State2 = "Weekend prices.";
 var State3 = "Midweek prices.";
 
 // Price for adults in the midweek
-const Price3A = ["1 Hour - 6,00", "2 Hour - 8,50", "Full day - 15,00"];
+const Price3A = ["1 Hour - €6,00", "2 Hour - 8,50", "Full day - 15,00"];
 let lLen = Price3A.length;
 
 let midweekA = "<ul>";
