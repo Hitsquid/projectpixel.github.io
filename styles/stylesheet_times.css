@@ -80,7 +80,7 @@ figure > #sign
 }
 
 /*adding padding to the top of the list so it looks better*/
-.adresItem > ul
+#adresItem > ul
 {
   padding-top: 50px;
 }
