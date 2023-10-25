@@ -15,7 +15,7 @@ body * /* selects all elements inside the body*/
   margin: 0px;
 }
 
-.grid-container 
+#grid-container 
 {
     display: grid; /*makes sure the grid actually displays as a grid*/
     gap: 50px; /*specifies the space between the different rows and collumns in the grid*/
@@ -27,14 +27,14 @@ body * /* selects all elements inside the body*/
     position: fixed;
 }
 
-.signItem
+#signItem
 {
   grid-column: 1/1; /*places the grid item in the first column*/
   grid-row: 1/1; /*places the grid item in the first row of the grid, in this case the item is places in the first column of the first row*/
   border: 1px hidden; /*creates an invisible border around the item */
 }
 
-.timetableItem
+#timetableItem
 {
   grid-column: 2/2;
   grid-row: 1/1;
@@ -43,7 +43,7 @@ body * /* selects all elements inside the body*/
   
 }
 
-.adresItem
+#adresItem
 {
    grid-column: 1/1;
    grid-row: 2/2;
@@ -51,7 +51,7 @@ body * /* selects all elements inside the body*/
    text-align: center;
 }
 
-.mapItem
+#mapItem
 {
     grid-column: 2/2;
     grid-row: 2/2;
