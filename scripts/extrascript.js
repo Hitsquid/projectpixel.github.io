@@ -19,10 +19,10 @@ else
 
 if( developer == true)
 {
-    document.getElementById(welcomemessage).innerHTML = "Hallo " + name.toLowerCase() + " jij bent een van de developers van de website";
+    document.getElementById("welcomemessage").innerHTML = "Hallo " + name.toLowerCase() + " jij bent een van de developers van de website";
 }
 
 else
 {
-    document.getElementById(welcomemessage).innerhtml = "Hallo " + name.toLowerCase();
+    document.getElementById("welcomemessage").innerhtml = "Hallo " + name.toLowerCase();
 }
