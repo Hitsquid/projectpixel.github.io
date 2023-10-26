@@ -21,7 +21,7 @@
     grid-template-rows: auto;
     gap: 15px;
     align-content: center;
-    position: fixed;
+/*    position: fixed; */
     width: 100vw;
 }
 
