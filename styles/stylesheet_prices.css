@@ -9,7 +9,7 @@
 /*
     Yeah, this is gonna be hard to explain properly. To start, I didn't really understand what I was doing at first.
     The way I understand it, display: grid is just one of those things you need, well, a grid, I mean.
-    Then the colums and rows. I think you just put auto for the amount you want, meaning auto auto auto gives 3 columns.
+    Then the colums and rows. I think you just put auto for the amount you want, meaning auto auto auto gives 3 columns. [I changed it after making this comment :3]
     The gap just creates some space between the boxes in the grid.
     Align-content: center just puts the grid in the center of the page. I'm unsure if this one actually works.
     Position: fixed puts the grid into the text. Well underneath the text, like right below it. It merges the formatting. Other words for make it look good.
@@ -17,7 +17,7 @@
 */
 #grid {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto;
     grid-template-rows: auto;
     gap: 15px;
     align-content: center;
@@ -35,16 +35,12 @@
     grid-column: 1/1;
     grid-row: 1/1;
     text-align: center;
+    font-size: larger;
 }
 
 #weekEnd {
     grid-column: 2/2;
     grid-row: 1/1;
     text-align: center;
-}
-
-#closed {
-    grid-column: 3/3;
-    grid-row: 1/1;
-    text-align: center;
+    font-size: larger;
 }
