@@ -48,3 +48,8 @@
     overflow: hidden;
     background-color: #333;
   }
+
+  #floatright
+  {
+    float: right;
+  }
