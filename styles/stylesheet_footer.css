@@ -21,6 +21,12 @@
 
     Width: 100vh just makes it as wide as the view, the page. [This also has been changed, it extended the page slightly. Probably had to do with the gap (it did not)]
 */
+
+
+footer {
+    margin: -8px;
+}
+
 #grid {
     display: grid;
     border: 3px solid blueviolet;
@@ -30,8 +36,6 @@
     align-content: center;
     float: bottom;
 /*    position: fixed; */
-    width: 100%;
-    margin: -8px;
     box-sizing: border-box;
 }
 
