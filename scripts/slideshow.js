@@ -1,3 +1,12 @@
+/*
+
+    Authors; Loek
+    28/09/2023
+
+    Games pagina
+
+*/
+
 let slideIndex = [1,1,1,1,1,1];
 let slideId = ["mySlides1", "mySlides2", "mySlides3", "mySlides4", "mySlides5", "mySlides6"]
 showSlides(1, 0);
