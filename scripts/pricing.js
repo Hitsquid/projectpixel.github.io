@@ -23,9 +23,9 @@ document.getElementById("Today").innerHTML = dayNow;
 
 // Here it's just some simplistic things, just adding text to variables. Changes per day to show the price amount, A.E. if it's midweek or weekend.
 // There's 3 states, so 3 variables are needed.
-var Closed = "Closed.";
-var State2 = "Weekend prices.";
-var State3 = "Midweek prices.";
+var Closed = "Closed";
+var State2 = "Weekend prices";
+var State3 = "Midweek prices";
 
 // This next part might get slightly confusing
 // 4 functions that work the exact same way, they just have different price values.
