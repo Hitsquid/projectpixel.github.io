@@ -2,7 +2,7 @@
 // Made by Gwyn
 // 04/10/2023
 
-// Yeesh, where to begin? A fucktonne-a code, but luckily most things are repeated.
+// Ah yes, my eldritch abomination child of code.
 // Really, there's only like 5 different things?
 // There's the const weekday, new Date(), the vars for easy collectivisation, then the fun parts; full lists for prices, then the returns per day.
 // I could probably change those days to be shorter, cuz there's 7 days and only 3 states? I think this is nicer, makes it easier for changes in schedules.
