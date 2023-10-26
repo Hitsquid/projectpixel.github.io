@@ -14,15 +14,39 @@ const weekday = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Sa
 
 // This block consists of only date things. First, a random letter gets attached to the Date() function.
 // This variable is then used to acsertain other pieces of information, here it's only to get the weekday.
-// After that, we capitalise 
+// After that, we capitalise the day. I just think it looks nicer after that.
+// We then get that variable into html to show on the page.
 const d = new Date();
 let day = weekday[d.getDay()];
 var dayNow = day.toUpperCase();
 document.getElementById("Today").innerHTML = dayNow;
 
+// Here it's just some simplistic things, just adding text to variables. Changes per day to show the price amount, A.E. if it's midweek or weekend.
+// There's 3 states, so 3 variables are needed.
 var Closed = "Closed.";
 var State2 = "Weekend prices.";
 var State3 = "Midweek prices.";
+
+// This next part might get slightly confusing
+// 4 functions that work the exact same way, they just have different price values.
+// First we create a constant array with the different prices, this is needed for the next few parts.
+// After that we look how many items are in said array using .length, which returns an integer.
+// After that the second leg starts; time to put things into a list.
+// First, obviously, we have to create a list.
+// Then we throw in a for() loop, using the length of the array. This'll make sure we get all the values into the list.
+// In the for() loop we add the next item in the array. This means that the first available value goes into the list. After this is done, it goes to the next value and so on.
+// For anything confusing, I'll try to make it more clear with the following:
+// First, the variable for price gets a <ul> added to it. The variable is midweekA, midweekC, weekendA or weekendC.
+// After that a few things are added in a row; <li>, the first available value in the array, </li>. This is done to create a list element in HTML.
+// This gets repeated for every item in the array.
+// To close the function, at the end the variable for price gets a </ul> added, to close the list.
+// These functions basically write in full HTML a list. It's just a really big way to easily write lists in HTML using Javascript.
+// Done twice per state due to difference in prices for adults and children, not needed for when it's closed.
+// I also found my earlier comment, which i'll put below this one
+
+// These work quite simplisticly; an array for values, a [let] for the amount of values in an array, a [for loop] to count until it's empty, and a return in a list format.
+
+// Yeah, it's a lot
 
 // Price for adults in the midweek
 const Price3A = ["1 Hour - 6,00 EUR", "2 Hour - 8,50 EUR", "Full day - 15,00 EUR"];
@@ -64,8 +88,13 @@ for (let i = 0; i < dLen; i++) {
 }
 weekendC += "</ul>";
 
-// These work quite simplisticly; an array for values, a [let] for the amount of values in an array, a [for loop] to count until it's empty, and a return in a list format.
 
+// next up, we get the if-else, which returns the right messages.
+// I elected to check it by day to make it changeable easier in case any opening times change.
+// In all of them, 3 variables are chucked to HTML; State, PriceAd, PriceCh.
+// State is, well, the state of the arcade. Either closed, midweek or weekend, because those are the different price ranges.
+// PriceAd is the price for Adults.
+// PriceCh is the price for Children.
 
 if(day == "Sunday") {
     document.getElementById("State").innerHTML = State2;
@@ -76,13 +105,11 @@ else if(day == "Monday") {
     document.getElementById("State").innerHTML = Closed;
     document.getElementById("PriceAd").innerHTML = Closed;
     document.getElementById("PriceCh").innerHTML = Closed;
-    alert("The arcade is closed today.");
 }
 else if(day == "Tuesday") {
     document.getElementById("State").innerHTML = Closed;
     document.getElementById("PriceAd").innerHTML = Closed;
     document.getElementById("PriceCh").innerHTML = Closed;
-    alert("The arcade is closed today.");
 }
 else if(day == "Wednesday") {
     document.getElementById("State").innerHTML = State3;
