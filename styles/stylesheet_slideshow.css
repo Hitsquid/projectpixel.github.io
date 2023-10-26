@@ -58,7 +58,7 @@ img {vertical-align: middle;}
 }
 
 /* Gives the name of the games a different color */
-.figcaption
+figcaption
 {
   color: goldenrod;
 }
