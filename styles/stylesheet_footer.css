@@ -46,14 +46,14 @@ footer {
     Text-align: center makes the text go middle of grid block. 
 */
 
-#midWeek {
+#leftSide {
     grid-column: 1/1;
     grid-row: 1/1;
     text-align: center;
     font-size: larger;
 }
 
-#weekEnd {
+#rightSide {
     grid-column: 2/2;
     grid-row: 1/1;
     text-align: center;
