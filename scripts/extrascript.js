@@ -24,5 +24,5 @@ if( developer == true)
 
 else
 {
-    document.getElementById("welcomemessage").innerhtml = "Hallo " + name.toLowerCase() + ".";
+    document.getElementById("welcomemessage").innerHTML = "Hallo " + name.toLowerCase() + ".";
 }
