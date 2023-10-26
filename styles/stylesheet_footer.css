@@ -27,6 +27,7 @@ footer {
     margin: 0px -8px;
     position: fixed;
     bottom: 0;
+    width: 100%;
 }
 
 #grid {
