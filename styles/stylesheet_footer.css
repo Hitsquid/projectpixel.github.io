@@ -35,7 +35,9 @@ footer {
     gap: 0px;
     align-content: center;
     float: bottom;
-/*    position: fixed; */
+    position: fixed;
+    left: 0;
+    bottom: 0;
     box-sizing: border-box;
 }
 
