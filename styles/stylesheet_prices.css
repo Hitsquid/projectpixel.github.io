@@ -52,6 +52,6 @@
     This just removes the bullet. Unlike-
 */
 
-ul {
+#grid ul {
     list-style-type: none;
 }
