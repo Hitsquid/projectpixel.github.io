@@ -25,6 +25,10 @@
 
 footer {
     margin: 0px -8px;
+    float: bottom;
+    position: fixed;
+    left: 0;
+    bottom: 0;
 }
 
 #grid {
@@ -34,10 +38,6 @@ footer {
     grid-template-rows: auto;
     gap: 0px;
     align-content: center;
-    float: bottom;
-    position: fixed;
-    left: 0;
-    bottom: 0;
     box-sizing: border-box;
 }
 
