@@ -14,7 +14,7 @@ if(name.toLowerCase() == "samii" || name.toLowerCase() == "loek" || name.toLower
 
 else
 {
-    developer = false;
+    var developer = false;
 }
 
 if( developer == true)
