@@ -94,3 +94,8 @@ footer p {
 footer figcaption {
     font-size: x-small;
 }
+
+#content
+{
+    margin-bottom: 20px;
+}
