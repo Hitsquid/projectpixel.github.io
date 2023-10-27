@@ -83,3 +83,15 @@ footer {
 #grid2 ul {
     list-style-type: none;
 }
+
+footer h5 {
+    font-size: smaller;
+}
+
+footer p {
+    font-size: x-small;
+}
+
+footer figcaption {
+    font-size: x-small;
+}
