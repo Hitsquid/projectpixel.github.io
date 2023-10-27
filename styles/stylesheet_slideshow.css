@@ -6,7 +6,7 @@
 */
 
 * {box-sizing: border-box}
-.musicslide, .mySlides2, .mySlides3, .mySlides4, .mySlides5, .mySlides6 {display: none}
+.mySlides1, .mySlides2, .mySlides3, .mySlides4, .mySlides5, .mySlides6 {display: none}
 img {vertical-align: middle;}
 
 /* Slideshow container */
