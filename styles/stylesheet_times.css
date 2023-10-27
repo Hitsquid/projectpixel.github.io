@@ -84,3 +84,13 @@ figure > #sign
 {
   padding-top: 50px;
 }
+
+h1
+{
+  color: blueviolet;
+}
+
+figcaption
+{
+  color: goldenrod;
+}
