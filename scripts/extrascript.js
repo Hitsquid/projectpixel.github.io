@@ -9,11 +9,15 @@ var name = prompt("wat is uw naam?");
 
 var developer = (name.toLowerCase() == "samii" || name.toLowerCase() == "loek" || name.toLowerCase() == "gwyn");
 
-console.log(typeof(developer));
 
 if(developer == true)
 {
-    document.getElementById("welcomemessage").innerHTML = "Hallo " + name.toLowerCase() + ", jij bent een van de developers van de website";
+    document.getElementById("welcomemessage").innerHTML = "Hallo " + name.toLowerCase() + ", jij bent een van de developers van de website.";
+}
+
+else if(name == NULL) 
+{
+    document.getElementById("welcomemessage").innerHTML = "Hallo, je hebt geen naam ingevuld.";
 }
 
 else
