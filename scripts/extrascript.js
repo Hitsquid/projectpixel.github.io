@@ -15,7 +15,7 @@ if(developer == true)
     document.getElementById("welcomemessage").innerHTML = "Hallo " + name.toLowerCase() + ", jij bent een van de developers van de website.";
 }
 
-else if(name == NULL) 
+else if(name === null) 
 {
     document.getElementById("welcomemessage").innerHTML = "Hallo, je hebt geen naam ingevuld.";
 }
