@@ -11,8 +11,7 @@ body
 
 #content  /* selects all elements inside the body*/
 {
-  margin: 0px -8px -8px;
-  padding-bottom: 20px;
+  margin: 0px -8px 20px;
 }
 
 #grid-container 
