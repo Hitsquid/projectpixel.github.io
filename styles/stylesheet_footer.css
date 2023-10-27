@@ -40,6 +40,16 @@ footer {
     box-sizing: border-box;
 }
 
+#grid2 {
+    display: grid;
+    border: 3px 0px 0px 0px solid blueviolet;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    gap: 0px;
+    align-content: center;
+    box-sizing: border-box;
+}
+
 /*
     These are simpler, the grid-row just says it takes the full row. Rows are horizontal, so it works. Just trust me on this.
     Grid-column I actually have to explain. 1/1 means it takes up 1 through 1, so only the first. 2/2 works the exact same, it takes only the second slot an so on.
@@ -65,5 +75,9 @@ footer {
 */
 
 #grid ul {
+    list-style-type: none;
+}
+
+#grid2 ul {
     list-style-type: none;
 }
