@@ -7,17 +7,11 @@ content: script for the extra page to comply with requirements we dont implement
 
 var name = prompt("wat is uw naam?");
 
-if(name.toLowerCase() == "samii" || name.toLowerCase() == "loek" || name.toLowerCase() == "gwyn") 
-{
-    var developer = true;
-}
+var developer = (name.toLowerCase() == "samii" || name.toLowerCase() == "loek" || name.toLowerCase() == "gwyn");
 
-else
-{
-    var developer = false;
-}
+console.log(typeof(developer));
 
-if( developer == true)
+if(developer == true)
 {
     document.getElementById("welcomemessage").innerHTML = "Hallo " + name.toLowerCase() + ", jij bent een van de developers van de website";
 }
