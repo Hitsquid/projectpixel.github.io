@@ -18,12 +18,14 @@
 
     Width: 100vh just makes it as wide as the view, the page. [This also has been changed, it extended the page slightly. Probably had to do with the gap (it did not)]
 */
-#timegrid {
+#grid {
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto;
     gap: -15px;
     align-content: center;
+/*    position: fixed; */
+    width: 99vw;
 }
 
 /*
@@ -52,9 +54,4 @@
 
 #grid ul {
     list-style-type: none;
-}
-
-#content
-{
-    margin: 0px -8px 20px;
 }
