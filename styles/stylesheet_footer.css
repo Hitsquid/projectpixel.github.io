@@ -28,6 +28,7 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+    background-color:rgb(51, 51, 51);
 }
 
 #grid {
@@ -41,6 +42,7 @@ footer {
 }
 
 #grid2 {
+    margin: 0px -3px;
     display: grid;
     border-top: 3px double blueviolet;
     grid-template-columns: auto auto;
