@@ -9,7 +9,7 @@ body
   box-sizing: border-box; /*causes padding to be included in width and height specifications, so 300px width and 50px padding will create an element where width + padding is 300px instead of 350px*/
 }
 
-#content  /* selects all elements inside the body*/
+#content  /* gives the content divider margins so that the footer wont be too close to the content*/
 {
   margin: 0px -8px 20px;
 }

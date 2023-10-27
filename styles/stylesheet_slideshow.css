@@ -7,7 +7,7 @@
 
 * {box-sizing: border-box}
 .mySlides1, .mySlides2, .mySlides3, .mySlides4, .mySlides5, .mySlides6 {display: none}
-img {vertical-align: middle;}
+#content img {vertical-align: middle;}
 
 /* Slideshow container */
 .slideshow-container 
@@ -58,7 +58,7 @@ img {vertical-align: middle;}
 }
 
 /* Gives the name of the games a different color */
-figcaption
+#content figcaption
 {
   color: goldenrod;
 }
