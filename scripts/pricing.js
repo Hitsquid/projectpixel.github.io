@@ -96,6 +96,7 @@ weekendC += "</ul>";
 // PriceAd is the price for Adults.
 // PriceCh is the price for Children.
 
+//script to display the prices of the current day
 if(day == "Sunday") {
     document.getElementById("State").innerHTML = State2;
     document.getElementById("PriceAd").innerHTML = weekendA;
