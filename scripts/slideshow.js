@@ -10,7 +10,7 @@
 /* laat de website weten hoeveel slideshows er zijn */
 let slideIndex = [1,1,1,1,1,1];
 /* Maakt verschillende groepen aan dus in dit geval 6 slideshows als classes */
-let slideclass = ["mySlides1", "mySlides2", "mySlides3", "mySlides4", "mySlides5", "mySlides6"]
+let slideclass = ["musicslide", "mySlides2", "mySlides3", "mySlides4", "mySlides5", "mySlides6"]
 /* zorgt ervoor dat de 6 slideshows apart van elkaar werken */
 showSlides(1, 0);
 showSlides(1, 1);
