@@ -1,8 +1,9 @@
 /* 
-    Author: Gwyn
+    Author: Gwyn, Samii
     Date: 25/10/23
 
     Adding grids into the mix
+    content: stylesheet for the prices page
 */
 
 
@@ -18,14 +19,14 @@
 
     Width: 100vh just makes it as wide as the view, the page. [This also has been changed, it extended the page slightly. Probably had to do with the gap (it did not)]
 */
+
+/*creates a grid to place the price lists in */
 #timegrid {
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto;
-    gap: -15px;
+    gap: 15px;
     align-content: center;
-/*    position: fixed; */
-    width: 99vw;
 }
 
 /*
@@ -34,6 +35,7 @@
     Text-align: center makes the text go middle of grid block. 
 */
 
+/*places the prices from wednesday till friday in the first row and first column of the grid */
 #midWeek {
     grid-column: 1/1;
     grid-row: 1/1;
@@ -41,6 +43,7 @@
     font-size: larger;
 }
 
+/*places the prices in the weekend in the second column of the first row*/
 #weekEnd {
     grid-column: 2/2;
     grid-row: 1/1;
@@ -52,6 +55,7 @@
     This just removes the bullet. Unlike-
 */
 
+/*removes the bullets of the list*/
 #timegrid ul {
     list-style-type: none;
 }
