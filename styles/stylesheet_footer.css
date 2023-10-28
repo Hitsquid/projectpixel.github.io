@@ -38,7 +38,7 @@ footer {
 }
   
 #content-wrap {
-    padding-bottom: 12rem;    /* Footer height */
+    padding-bottom: 12rem;    /* adds padding to prevent the footer from overlapping other elements */
 }
 
 #grid {
