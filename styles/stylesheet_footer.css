@@ -32,7 +32,7 @@ footer {
 
 #grid {
     display: grid;
-    border: 3px blueviolet;
+    border: 3px solid blueviolet;
     grid-template-columns: auto auto;
     grid-template-rows: auto;
     gap: 0px;
@@ -43,7 +43,7 @@ footer {
 #grid2 {
     margin: 0px -8px;
     display: grid;
-    border-top: 3px blueviolet;
+    border-top: 3px solid blueviolet;
     grid-template-columns: auto auto;
     grid-template-rows: auto;
     gap: 0px;
@@ -54,7 +54,7 @@ footer {
 #grid3 {
     margin: 0px -8px;
     display: grid;
-    border-top: 3px blueviolet;
+    border-top: 3px solid blueviolet;
     grid-template-columns: auto auto auto;
     grid-template-rows: auto;
     gap: 0px;
