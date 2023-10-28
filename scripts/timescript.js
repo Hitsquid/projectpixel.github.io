@@ -1,9 +1,15 @@
+/*
+    auteur: Samii
+    Datum: 3/10/23
+
+    content: script to determine if the arcade is open and display an image depending on the result
+*/
+
+//getting the current time and day of the week 
 const now = new Date();
 const day = now.getDay(); // returns a number representing the day of the week, starting with 0 for Sunday
 const hours = now.getHours();
 const minutes = now.getMinutes();
-console.log(`Today is day ${day} and the time is ${hours}:${minutes}.`);
-
 
 //if else statement to determine if the arcade is open
 if (day == 1 || day == 2) {
