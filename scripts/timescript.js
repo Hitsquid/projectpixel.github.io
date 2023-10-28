@@ -2,7 +2,7 @@
     auteur: Samii
     Datum: 3/10/23
 
-    content: script to determine if the arcade is open and display an image depending on the result
+    content: script to determine if the arcade is open and display an image on the times page depending on the result
 */
 
 //getting the current time and day of the week 
@@ -12,30 +12,35 @@ const hours = now.getHours();
 const minutes = now.getMinutes();
 
 //if else statement to determine if the arcade is open
-if (day == 1 || day == 2) {
+if (day == 1 || day == 2) 
+{
     document.getElementById("sign").src = "../images/closed.png";
     document.getElementById("sign").alt = "closed sign";
     document.getElementById("signcaption").innerHTML = "We zijn gesloten.";
 }
 
-else if (hours < 14) {
+else if (hours < 14) 
+{
     document.getElementById("sign").src = "../images/closed.png";
     document.getElementById("sign").alt = "closed sign";
     document.getElementById("signcaption").innerHTML = "We zijn gesloten.";
 }
-else if (day !=0 && hours >= 23) {
+else if (day !=0 && hours >= 23) 
+{
     document.getElementById("sign").src = "../images/closed.png";
     document.getElementById("sign").alt = "closed sign";
     document.getElementById("signcaption").innerHTML = "We zijn gesloten.";
 } 
 
-else if (day == 0 && hours >=22) {
+else if (day == 0 && hours >=22) 
+{
     document.getElementById("sign").src = "../images/closed.png";
     document.getElementById("sign").alt = "closed sign";
     document.getElementById("signcaption").innerHTML = "We zijn gesloten.";
 }
 
-else {
+else 
+{
     document.getElementById("sign").src = "../images/open.png";
     document.getElementById("sign").alt = "open sign";
     document.getElementById("signcaption").innerHTML = "We zijn open.";
