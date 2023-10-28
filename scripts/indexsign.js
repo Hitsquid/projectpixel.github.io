@@ -6,8 +6,7 @@ content: script to determine if the arcade is open and display an image on de in
 */
 
 //getting the current time and day of the week 
-const now = new Date();
-const currentday = now.getDay(); // returns a number representing the day of the week, starting with 0 for Sunday
+const currentday = d.getDay(); // returns a number representing the day of the week, starting with 0 for Sunday
 const hours = now.getHours();
 const minutes = now.getMinutes();
 
