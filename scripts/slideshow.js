@@ -3,7 +3,7 @@
     Authors; Loek
     28/09/2023
 
-    Games pagina
+    Games pagina scripts
 
 */
 
@@ -19,6 +19,7 @@ showSlides(1, 3);
 showSlides(1, 4);
 showSlides(1, 5);
 
+//zorgt dat de slideshow op de goede plek is en werkt
 function plusSlides(n, no) {
   showSlides(slideIndex[no] += n, no);
 }
