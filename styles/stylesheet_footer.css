@@ -116,6 +116,10 @@ footer ul {
     font-size: x-small;
 }
 
+footer h5 {
+    font-size: smaller;
+}
+
 li h5 {
     font-size: smaller;
 }
