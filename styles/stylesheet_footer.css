@@ -113,19 +113,19 @@ footer {
 }
 
 footer ul {
-    font-size: x-small;
-}
-
-footer h5 {
     font-size: smaller;
 }
 
-li h5 {
+footer h5 {
     font-size: large;
 }
 
+li h5 {
+    font-size: larger;
+}
+
 footer figcaption {
-    font-size: x-small;
+    font-size: smaller;
 }
 
 #content
