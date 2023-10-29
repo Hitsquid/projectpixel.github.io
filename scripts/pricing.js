@@ -10,7 +10,7 @@
 
 // Right, so the date in any coding is seen as a number from 0 through 6, 0 being Sunday, 1 being Monday and so on.
 // Here those numbers get translated to days. Not really needed, but I like this because it requires less thinking.
-const weekday = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+const weekday = ["Zondag","Maandag","Dinsdag","Woensdag","Donderdag","Vrijdag","Zaterdag"];
 
 // This block consists of only date things. First, a random letter gets attached to the Date() function.
 // This variable is then used to acsertain other pieces of information, here it's only to get the weekday.
@@ -23,9 +23,9 @@ document.getElementById("Today").innerHTML = dayNow;
 
 // Here it's just some simplistic things, just adding text to variables. Changes per day to show the price amount, A.E. if it's midweek or weekend.
 // There's 3 states, so 3 variables are needed.
-var Closed = "Closed";
-var State2 = "Weekend prices";
-var State3 = "Midweek prices";
+var Closed = "Gesloten";
+var State2 = "Weekend prijzen";
+var State3 = "Midweek prijzen";
 
 // This next part might get slightly confusing
 // 4 functions that work the exact same way, they just have different price values.
@@ -49,7 +49,7 @@ var State3 = "Midweek prices";
 // Yeah, it's a lot
 
 // Price for adults in the midweek
-const Price3A = ["1 Hour - 6,00 EUR", "2 Hour - 8,50 EUR", "Full day - 15,00 EUR"];
+const Price3A = ["1 Uur - 6,00 EUR", "2 Uur - 8,50 EUR", "Hele dag - 15,00 EUR"];
 let lLen = Price3A.length;
 
 let midweekA = "<ul>";
@@ -59,7 +59,7 @@ for (let i = 0; i < lLen; i++) {
 midweekA += "</ul>";
 
 // Price for children in the midweek
-const Price3C = ["1 Hour - 5,00 EUR", "2 Hour - 7,50 EUR", "Full day - 15,00 EUR"];
+const Price3C = ["1 Uur - 5,00 EUR", "2 Uur - 7,50 EUR", "Hele dag - 15,00 EUR"];
 let aLen = Price3C.length;
 
 let midweekC = "<ul>";
@@ -69,7 +69,7 @@ for (let i = 0; i < aLen; i++) {
 midweekC += "</ul>";
 
 // Price for adults in the weekend
-const Price2A = ["1 Hour - 7,50 EUR", "2 Hour - 10,00 EUR", "Full day - 17,50 EUR"];
+const Price2A = ["1 Uur - 7,50 EUR", "2 Uur - 10,00 EUR", "Hele dag - 17,50 EUR"];
 let pLen = Price2A.length;
 
 let weekendA = "<ul>";
@@ -79,7 +79,7 @@ for (let i = 0; i < pLen; i++) {
 weekendA += "</ul>";
 
 // Price for children in the weekend
-const Price2C = ["1 Hour - 6,50 EUR", "2 Hour - 9,00 EUR", "Full day - 17,50 EUR"];
+const Price2C = ["1 Uur - 6,50 EUR", "2 Uur - 9,00 EUR", "Hele dag - 17,50 EUR"];
 let dLen = Price2C.length;
 
 let weekendC = "<ul>";
@@ -97,37 +97,37 @@ weekendC += "</ul>";
 // PriceCh is the price for Children.
 
 //script to display the prices of the current day
-if(day == "Sunday") {
+if(day == "Zondag") {
     document.getElementById("State").innerHTML = State2;
     document.getElementById("PriceAd").innerHTML = weekendA;
     document.getElementById("PriceCh").innerHTML = weekendC;
 }
-else if(day == "Monday") {
+else if(day == "Maandag") {
     document.getElementById("State").innerHTML = Closed;
     document.getElementById("PriceAd").innerHTML = Closed;
     document.getElementById("PriceCh").innerHTML = Closed;
 }
-else if(day == "Tuesday") {
+else if(day == "Dinsdag") {
     document.getElementById("State").innerHTML = Closed;
     document.getElementById("PriceAd").innerHTML = Closed;
     document.getElementById("PriceCh").innerHTML = Closed;
 }
-else if(day == "Wednesday") {
+else if(day == "Woensdag") {
     document.getElementById("State").innerHTML = State3;
     document.getElementById("PriceAd").innerHTML = midweekA;
     document.getElementById("PriceCh").innerHTML = midweekC;
 }
-else if(day == "Thursday") {
+else if(day == "Donderdag") {
     document.getElementById("State").innerHTML = State3;
     document.getElementById("PriceAd").innerHTML = midweekA;
     document.getElementById("PriceCh").innerHTML = midweekC;
 }
-else if(day == "Friday") {
+else if(day == "Vrijdag") {
     document.getElementById("State").innerHTML = State3;
     document.getElementById("PriceAd").innerHTML = midweekA;
     document.getElementById("PriceCh").innerHTML = midweekC;
 }
-else if(day == "Saturday") {
+else if(day == "Zaterdag") {
     document.getElementById("State").innerHTML = State2;
     document.getElementById("PriceAd").innerHTML = weekendA;
     document.getElementById("PriceCh").innerHTML = weekendC;
