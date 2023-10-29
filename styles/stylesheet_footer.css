@@ -112,12 +112,12 @@ footer {
     list-style-type: none;
 }
 
-footer h5 {
-    font-size: smaller;
-}
-
 footer ul {
     font-size: x-small;
+}
+
+li h5 {
+    font-size: smaller;
 }
 
 footer figcaption {
