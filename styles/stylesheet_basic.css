@@ -1,37 +1,40 @@
+/* 
+authors: Samii, Gwyn, Loek
+date: 27/9/23
 
+content: css that needs to be applied to the entire website
+*/
+
+
+/*loads the file containing the font used on the entire website*/
 @font-face 
 {
     font-family: "Minercraftory";
     src: url(../fonts/Minercraftory.ttf);
 }
 
+/*gives the entire body styling*/
 body 
 {
-    font-family: "Minercraftory";
-    padding-top: 60px;
-    background-image:url(../images/amogus_space.jpg);
-    background-repeat: repeat;
-    background-size: 420px;
-    color: lawngreen;
-    overflow-x: hidden;
+    font-family: "Minercraftory"; /*sets the font to the custom font that was loaded above*/
+    padding-top: 60px; /*gives the body a padding of 60 pixels at the top of the page to make room for the navbar*/
+    background-image:url(../images/amogus_space.jpg); /*sets the background to an image*/
+    background-repeat: repeat; /*tells the website that the background image has to be constantly repeated so that it convers the entire background of the webpage*/
+    background-size: 420px; /*sets the size of the background image to 420 pixels*/
+    color: lawngreen; /*makes the text on the entire page green*/
+    overflow-x: hidden; 
 }
 
-
-#gamestitle 
-{
-    text-align: center;
-    
-}
 
 .colorgold
 {
-    color: goldenrod;
+    color: goldenrod; /*gives all text located inside elements with the class 'colorgold'  a golden color (used almost exclusivly on figcaptions)*/
 }
 
 .center 
 {
-  display: block;
-  margin-left: auto;
+  display: block; /*tells all elements witht the class 'center' to behave like a block element*/
+  margin-left: auto; /*tells the browser to automatically define the margin of the elemtent*/
   margin-right: auto;
-  width: 50%;
+  width: 50%; /*sets the width to 50% of the size of the webpage*/
 }
