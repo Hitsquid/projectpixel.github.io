@@ -10,34 +10,34 @@
 -->
 
 
-<html>
+<html> <!--all code for the website is located inside the html tag-->
 
-    <head>
+    <head> <!--the head contains information for the browser in order to load files and other metadata-->
         
-        <title>
+        <title> <!--tells the browser what the title of the page is-->
             Pixel Arcade - Everything for our gaming community
         </title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="styles/stylesheet_basic.css">
+        <meta charset="UTF-8"> <!--declares the standard character set the website should use-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--sets the size of the viewport to the width of the screen-->
+        <link rel="stylesheet" type="text/css" href="styles/stylesheet_basic.css"> <!--links to a stylesheet that contains the page's css-->
         <link rel="stylesheet" type="text/css" href="styles/stylesheet_navbar.css">
         <link rel="stylesheet" type="text/css" href="styles/stylesheet_footer.css">
         <!--  Above is added for grids, no extra stylesheets needed   -->
-        <script src="scripts/slideshow.js"></script>
+        <script src="scripts/slideshow.js"></script> <!--links to a script that contains javascript that needs to be executed when the website loads-->
         <script src="scripts/pricing.js" defer></script>
         <script src="scripts/indexsign.js" defer></script>
-        <link rel="icon" type="image/x-icon" href="images/favicon.png">
+        <link rel="icon" type="image/x-icon" href="images/favicon.png"> <!--adds a favicon to the tab of the page-->
 
     </head>
 
-    <body>
-        <div id="page-container">
-            <div id="content-wrap">
+    <body> <!--the body contains all content that will be visible on the site-->
+        <div id="page-container"> <!--contains all html code for the page, needed in order to correctly place the footer-->
+            <div id="content-wrap"> <!--contains all html for the page, exept for the footer, needed in order to place the footer where it belongs-->
 
-                <nav class="navbar">
-                    <ul>
-                        <li>
-                            <a class="active" href="index.html">Home</a>
+                <nav class="navbar"> <!--navigation bar that consists of a list of links to the other pages of the website-->
+                    <ul> <!--an unordered list in which to place list items-->
+                        <li> <!--a list item containing a link-->
+                            <a class="active" href="index.html">Home</a> <!--a link to the index page, with the class active because the current page is the index page itself-->
                         </li>
                         <li>
                             <a href="pages/times.html">Openingstijden</a>
@@ -48,29 +48,29 @@
                         <li>
                             <a href="pages/prices.html">Prijzen</a>
                         </li>
-                        <li id="floatright">
+                        <li id="floatright"> <!--has been given an id to be used in a css file so it will float on the right side of the navbar instead of the left like the other links-->
                             <a href="pages/extra.html">Extra</a>
                         </li>
                     </ul> 
                 </nav>
-                <div>
+                <div> <!--divider that contains all the content on the page, meaning everything exept for the footer and navbar-->
 
-                    <figure style="border-top: 3px solid blueviolet; margin: 0px -8px -5px; height: 33.333%;">
-                        <img src="images/banner.jpg" alt="Image containing the outside of Pixel Arcade" style="width: 100%; height: 19%;">
+                    <figure style="border-top: 3px solid blueviolet; margin: 0px -8px -5px; height: 33.333%;"> <!--figure element to place an image in, can be used to give an image a figcaption to place text directly below the image-->
+                        <img src="images/banner.jpg" alt="Image containing the outside of Pixel Arcade" style="width: 100%; height: 19%;"> <!--an image with alternative text for if the image doesnt load for some reason-->
                     </figure>
                     
-                    <div id="grid2">
+                    <div id="grid2"> <!--divider that will be displayed as a grid in which to place several elements that need to be placed directly next to eachother-->
 
-                        <div class="leftSide">
-                            <h2 id="Today" style="color: blueviolet;">
+                        <div class="leftSide"> <!--the grid element that will be displayed on the left side of the grid-->
+                            <h2 id="Today" style="color: blueviolet;"> <!--displays a the text inside the element as a heading, h2 is slightly smaller than h1 and is used mainly for subheadings-->
                             </h2>
                             <h2 id="State" class="colorgold">
 
                             </h2>
-                            <h3 class="colorgold">
+                            <h3 class="colorgold"> <!--an even smaller heading-->
                                 Volwassenen
                             </h3>
-                            <p id="PriceAd">
+                            <p id="PriceAd"> <!--a paragraph-->
 
                             </p>
                             <h3 class="colorgold">
@@ -82,7 +82,7 @@
                         <div class="rightSide">
                             <figure style="margin-top: 10%;">
                                 <img style="width: 515px; height: 231px;" id="sign" src="" alt=""> <!--creates empty img element to load images in-->
-                                <figcaption class="colorgold" id="signcaption">
+                                <figcaption class="colorgold" id="signcaption"> <!--a figcaption is used to display text right below an image-->
                                     
                                 </figcaption>
                             </figure>
@@ -113,11 +113,11 @@
                     </div>
                 </div>
             </div>
-            <footer>
+            <footer> <!--a semantics element, functionally the same as a divider but tells more about its content with its name-->
                 <div id="grid">
         
                     <div class="leftSide">
-                        <h5>
+                        <h5> <!--the second to smallest heading-->
                             Social media
                         </h5>
                         <figure>
