@@ -8,8 +8,7 @@
 //getting the current time and day of the week 
 const now = new Date();
 const day = now.getDay(); // returns a number representing the day of the week, starting with 0 for Sunday
-const hours = now.getHours();
-const minutes = now.getMinutes();
+const hours = now.getHours(); //returns the current hour of the day
 
 //if else statement to determine if the arcade is open
 if (day == 1 || day == 2) 
