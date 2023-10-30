@@ -61,7 +61,7 @@ body
 }
 
 /* centering the image withing the grid item*/
-figure > #sign 
+figure > #sign /*selects the first child with the ID 'sign' of the figure element*/
 {
   display: block;
   margin-left: auto;
