@@ -5,25 +5,25 @@
     Games pagina css
 */
 
-* 
+*  /*selects all elements*/
 {
   box-sizing: border-box
 }
 
 .mySlides1, .mySlides2, .mySlides3, .mySlides4, .mySlides5, .mySlides6 
 {
-  display: none
+  display: none /*tells the browser not to display the elements*/
 }
 
 #content img 
 {
-  vertical-align: middle;
+  vertical-align: middle; /*vertically aligns the elements to the middle of the page*/
 }
 
 /* Slideshow container */
 .slideshow-container 
 {
-  max-width: 600px;
+  max-width: 600px; /*sets the maximum width of the element to 600 pixels*/
   position: relative;
   margin: auto;
 }
@@ -31,18 +31,18 @@
 /* Next & previous buttons */
 .prev, .next 
 {
-  cursor: pointer;
+  cursor: pointer; /*tells the browser how the cursor should appear when hovering over the element*/
   position: absolute;
-  top: 50%;
+  top: 50%; /*gives the element an offset from the top of its parent element of 50% the height of its parent element*/
   width: auto;
   padding: 16px;
   margin-top: -22px;
   color: blueviolet;
-  font-weight: bold;
+  font-weight: bold; /*makes the text bold*/
   font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
+  transition: 0.6s ease; /*sets the delay between transitioning to and from the styling when hovering over the element*/
+  border-radius: 0 3px 3px 0; /*rounds the corners of the element*/
+  user-select: none; /*prevents the user from selecting the text inside the element*/
 }
 
 /* Position the "next button" to the right */
