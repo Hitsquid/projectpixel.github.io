@@ -25,6 +25,7 @@ function plusSlides(n, no)
   showSlides(slideIndex[no] += n, no);
 }
 
+//determines if the slide needs to be displayed or not, only 1 slide can be displayed at a time per slideshow
 function showSlides(n, no) 
 {
   let i;
