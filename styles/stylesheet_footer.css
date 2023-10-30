@@ -2,41 +2,28 @@
     Author: Gwyn, Samii
     Date: 26/10/23
 
-    Adding grids into the mix
-
-    Blatantly copied from stylesheet_prices with minimal changes
+    stylesheet for the footer
 
 */
 
 
-/*
-    Yeah, this is gonna be hard to explain properly. To start, I didn't really understand what I was doing at first.
-    The way I understand it, display: grid is just one of those things you need, well, a grid, I mean.
-    Then the colums and rows. I think you just put auto for the amount you want, meaning auto auto auto gives 3 columns. [I changed it after making this comment :3]
-    The gap just creates some space between the boxes in the grid. [I have no idea if this even does anything, honestly]
-    Align-content: center just puts the grid in the center of the page. I'm unsure if this one actually works.
 
-    Position: fixed puts the grid into the text. Well underneath the text, like right below it. It merges the formatting. Other words for make it look good.
-    This was a lie. This one line of code made it look garbage, so I removed it. Well, kept it, just commented it. See the process, learn from it.
-
-    Width: 100vh just makes it as wide as the view, the page. [This also has been changed, it extended the page slightly. Probably had to do with the gap (it did not)]
-*/
 
 
 footer 
 {
-    margin: 0px -8px -8px;
-    position: absolute;
-    bottom: 0;
-    background-color:rgb(51, 51, 51);
+    margin: 0px -8px -8px; /*adjusts the left, right and bottom margins so the footer is directly against the edges of the screen*/
+    position: absolute; /*gives the footer an absolute position beneath the content wrap*/
+    bottom: 0; /*specifies where in the page container the footer is located, with 0 meaning it has a 0 pixel ofset from the bottom of the page container*/
+    background-color:rgb(51, 51, 51); /*sets the background color to an rgb value*/
     height: fit-content;
-    width: 100vw;
+    width: 100vw; /*sets the width to 100% of the view window width*/
 }
 
 #page-container 
 {
     position: relative;
-    min-height: 100vh;
+    min-height: 100vh; /*sets the minimum height of the page container to 100% of the view window height*/
 }
   
 #content-wrap 
@@ -46,13 +33,13 @@ footer
 
 #grid 
 {
-    display: grid;
-    border-top: 3px solid blueviolet;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto;
-    gap: 0px;
-    align-content: center;
-    box-sizing: border-box;
+    display: grid; /*tells the browser to place the content inside the element as a grid and positions them using columns and rows*/
+    border-top: 3px solid blueviolet; /*creates a 3 pixel high solid purple border above the element*/
+    grid-template-columns: auto auto; /*automatically defines the sizing of the grid columns*/
+    grid-template-rows: auto; /*automatically defines the sizing of the grid rows*/
+    gap: 0px; /*sets the gap between grid items to 0 pixels*/
+    align-content: center; /*aligns the items inside grid to be at the center of their individual dividers */
+    box-sizing: border-box; /*specifies that the margins borders and padding should be counted as part of the element when defining element size, so a 300 pixel wide element with a 50 pixel margin is in reality a 250 pixel element with 50 pixels margin*/
 }
 
 #grid2 
@@ -79,23 +66,18 @@ footer
     box-sizing: border-box;
 }
 
-/*
-    These are simpler, the grid-row just says it takes the full row. Rows are horizontal, so it works. Just trust me on this.
-    Grid-column I actually have to explain. 1/1 means it takes up 1 through 1, so only the first. 2/2 works the exact same, it takes only the second slot an so on.
-    Text-align: center makes the text go middle of grid block. 
-*/
 
 .leftSide 
 {
-    grid-column: 1/1;
-    grid-row: 1/1;
-    text-align: center;
-    font-size: larger;
+    grid-column: 1/1; /*places the grid item in the first column of the grid*/
+    grid-row: 1/1; /*places the grid item in the first row of the grid*/
+    text-align: center; /*aligns the text in the center of the grid item*/
+    font-size: larger; /*makes the text larger*/
 }
 
 .rightSide 
 {
-    grid-column: 2/2;
+    grid-column: 2/2; /*places the grid item in the second column of the grid*/
     grid-row: 1/1;
     text-align: center;
     font-size: larger;
@@ -109,13 +91,10 @@ footer
     font-size: larger;
 }
 
-/*
-    This just removes the bullet. Unlike-
-*/
 
-#grid ul 
+#grid ul /*selects all ul elements that are children of the element that have grid as ID*/
 {
-    list-style-type: none;
+    list-style-type: none; /*removes the bullets in front of the list items*/
 }
 
 #grid2 ul 
@@ -125,7 +104,7 @@ footer
 
 footer ul 
 {
-    font-size: smaller;
+    font-size: smaller; /*makes the text smaller*/
 }
 
 footer h5 
@@ -145,6 +124,6 @@ footer figcaption
 
 #content
 {
-    margin-bottom: 20px;
+    margin-bottom: 20px; /*sets the bottom margin to 20 pixels*/
 }
 
