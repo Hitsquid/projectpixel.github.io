@@ -44,4 +44,4 @@ else
     document.getElementById("sign").src = "../images/open.png";
     document.getElementById("sign").alt = "open sign";
     document.getElementById("signcaption").innerHTML = "We zijn open.";
-};
+}

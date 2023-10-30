@@ -53,7 +53,8 @@ const Price3A = ["1 Uur - 6,00 EUR", "2 Uur - 8,50 EUR", "Hele dag - 15,00 EUR"]
 let lLen = Price3A.length;
 
 let midweekA = "<ul>";
-for (let i = 0; i < lLen; i++) {
+for (let i = 0; i < lLen; i++) 
+{
   midweekA += "<li>" + Price3A[i] + "</li>";
 }
 midweekA += "</ul>";
@@ -63,7 +64,8 @@ const Price3C = ["1 Uur - 5,00 EUR", "2 Uur - 7,50 EUR", "Hele dag - 15,00 EUR"]
 let aLen = Price3C.length;
 
 let midweekC = "<ul>";
-for (let i = 0; i < aLen; i++) {
+for (let i = 0; i < aLen; i++) 
+{
   midweekC += "<li>" + Price3C[i] + "</li>";
 }
 midweekC += "</ul>";
@@ -73,7 +75,8 @@ const Price2A = ["1 Uur - 7,50 EUR", "2 Uur - 10,00 EUR", "Hele dag - 17,50 EUR"
 let pLen = Price2A.length;
 
 let weekendA = "<ul>";
-for (let i = 0; i < pLen; i++) {
+for (let i = 0; i < pLen; i++) 
+{
   weekendA += "<li>" + Price2A[i] + "</li>";
 }
 weekendA += "</ul>";
@@ -83,7 +86,8 @@ const Price2C = ["1 Uur - 6,50 EUR", "2 Uur - 9,00 EUR", "Hele dag - 17,50 EUR"]
 let dLen = Price2C.length;
 
 let weekendC = "<ul>";
-for (let i = 0; i < dLen; i++) {
+for (let i = 0; i < dLen; i++) 
+{
   weekendC += "<li>" + Price2C[i] + "</li>";
 }
 weekendC += "</ul>";
@@ -97,37 +101,44 @@ weekendC += "</ul>";
 // PriceCh is the price for Children.
 
 //script to display the prices of the current day
-if(day == "Zondag") {
+if(day == "Zondag") 
+{
     document.getElementById("State").innerHTML = State2;
     document.getElementById("PriceAd").innerHTML = weekendA;
     document.getElementById("PriceCh").innerHTML = weekendC;
 }
-else if(day == "Maandag") {
+else if(day == "Maandag") 
+{
     document.getElementById("State").innerHTML = Closed;
     document.getElementById("PriceAd").innerHTML = Closed;
     document.getElementById("PriceCh").innerHTML = Closed;
 }
-else if(day == "Dinsdag") {
+else if(day == "Dinsdag") 
+{
     document.getElementById("State").innerHTML = Closed;
     document.getElementById("PriceAd").innerHTML = Closed;
     document.getElementById("PriceCh").innerHTML = Closed;
 }
-else if(day == "Woensdag") {
+else if(day == "Woensdag") 
+{
     document.getElementById("State").innerHTML = State3;
     document.getElementById("PriceAd").innerHTML = midweekA;
     document.getElementById("PriceCh").innerHTML = midweekC;
 }
-else if(day == "Donderdag") {
+else if(day == "Donderdag") 
+{
     document.getElementById("State").innerHTML = State3;
     document.getElementById("PriceAd").innerHTML = midweekA;
     document.getElementById("PriceCh").innerHTML = midweekC;
 }
-else if(day == "Vrijdag") {
+else if(day == "Vrijdag") 
+{
     document.getElementById("State").innerHTML = State3;
     document.getElementById("PriceAd").innerHTML = midweekA;
     document.getElementById("PriceCh").innerHTML = midweekC;
 }
-else if(day == "Zaterdag") {
+else if(day == "Zaterdag") 
+{
     document.getElementById("State").innerHTML = State2;
     document.getElementById("PriceAd").innerHTML = weekendA;
     document.getElementById("PriceCh").innerHTML = weekendC;

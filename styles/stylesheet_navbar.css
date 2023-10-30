@@ -1,55 +1,61 @@
 /* Adds black background and does the position */
-.navbar {
-    background-color: #333;
-    overflow: hidden;
-    position: fixed;
-    top: 0;
-    width: 100%;
+.navbar 
+{
+  background-color: #333;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
 /* these fix the navbar overlapping with the rest */
-    height: 50px;
-    background-color: black;
-    z-index: 1;
-    margin-left: -8px;
-  }
+  height: 50px;
+  background-color: black;
+  z-index: 1;
+  margin-left: -8px;
+}
   
   /* Styles the links */
-  nav li {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    text-decoration: none;
-    font-size: 17px;
-  }
+nav li 
+{
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+}
 
-  nav li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
+nav li a 
+{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
   
   /* Hover links colors */
-  nav li a:hover {
-    background-color: #ddd;
-    color: black;
-  }
+nav li a:hover 
+{
+  background-color: #ddd;
+  color: black;
+}
   
   /* active color change */
-  nav li a.active {
-    background-color: #0d00ff;
-    color: white;
-  }
+nav li a.active 
+{
+  background-color: #0d00ff;
+  color: white;
+}
   
-  nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-  }
+nav ul 
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
 
-  #floatright
-  {
-    float: right;
-  }
+#floatright
+{
+  float: right;
+}

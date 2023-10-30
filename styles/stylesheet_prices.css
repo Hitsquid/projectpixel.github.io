@@ -21,7 +21,8 @@
 */
 
 /*creates a grid to place the price lists in */
-#pricegrid {
+#pricegrid 
+{
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto;
@@ -36,7 +37,8 @@
 */
 
 /*places the prices from wednesday till friday in the first row and first column of the grid */
-#midWeek {
+#midWeek 
+{
     grid-column: 1/1;
     grid-row: 1/1;
     text-align: center;
@@ -44,7 +46,8 @@
 }
 
 /*places the prices in the weekend in the second column of the first row*/
-#weekEnd {
+#weekEnd 
+{
     grid-column: 2/2;
     grid-row: 1/1;
     text-align: center;
@@ -56,6 +59,7 @@
 */
 
 /*removes the bullets of the list*/
-#pricegrid ul {
+#pricegrid ul 
+{
     list-style-type: none;
 }

@@ -23,7 +23,8 @@
 */
 
 
-footer {
+footer 
+{
     margin: 0px -8px -8px;
     position: absolute;
     bottom: 0;
@@ -32,16 +33,19 @@ footer {
     width: 100vw;
 }
 
-#page-container {
+#page-container 
+{
     position: relative;
     min-height: 100vh;
 }
   
-#content-wrap {
+#content-wrap 
+{
     padding-bottom: 14rem;    /* adds padding to prevent the footer from overlapping other elements */
 }
 
-#grid {
+#grid 
+{
     display: grid;
     border-top: 3px solid blueviolet;
     grid-template-columns: auto auto;
@@ -51,7 +55,8 @@ footer {
     box-sizing: border-box;
 }
 
-#grid2 {
+#grid2 
+{
     margin: 0px -8px;
     display: grid;
     border-top: 3px solid blueviolet;
@@ -62,7 +67,8 @@ footer {
     box-sizing: border-box;
 }
 
-#grid3 {
+#grid3 
+{
     margin: 0px -8px;
     display: grid;
     border-top: 3px solid blueviolet;
@@ -79,21 +85,24 @@ footer {
     Text-align: center makes the text go middle of grid block. 
 */
 
-.leftSide {
+.leftSide 
+{
     grid-column: 1/1;
     grid-row: 1/1;
     text-align: center;
     font-size: larger;
 }
 
-.rightSide {
+.rightSide 
+{
     grid-column: 2/2;
     grid-row: 1/1;
     text-align: center;
     font-size: larger;
 }
 
-.evenRighterSide {
+.evenRighterSide 
+{
     grid-column: 3/3;
     grid-row: 1/1;
     text-align: center;
@@ -104,27 +113,33 @@ footer {
     This just removes the bullet. Unlike-
 */
 
-#grid ul {
+#grid ul 
+{
     list-style-type: none;
 }
 
-#grid2 ul {
+#grid2 ul 
+{
     list-style-type: none;
 }
 
-footer ul {
+footer ul 
+{
     font-size: smaller;
 }
 
-footer h5 {
+footer h5 
+{
     font-size: large;
 }
 
-li h5 {
+li h5 
+{
     font-size: larger;
 }
 
-footer figcaption {
+footer figcaption 
+{
     font-size: smaller;
 }
 
