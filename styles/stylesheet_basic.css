@@ -22,7 +22,7 @@ body
     background-repeat: repeat; /*tells the website that the background image has to be constantly repeated so that it convers the entire background of the webpage*/
     background-size: 420px; /*sets the size of the background image to 420 pixels*/
     color: lawngreen; /*makes the text on the entire page green*/
-    overflow-x: hidden; 
+    overflow-x: hidden; /*removes the scrollbar on the bottom of the page to prevent it from messing with the website, as a certain setting in windows 11 causes the site to look a bit different when turned off*/
 }
 
 
